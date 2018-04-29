@@ -12,13 +12,13 @@ void swap(int* a, int* b)
 // The function implements bubble sort
 void bubbleSort(int* tab, int size)
 {
-    for(int i=0; i<size-1; i++)
+    for(int i=0; i<size; i++)
         // Last i elements are already placed
-        for(int j=0; j<size-i-1; j++)
+        for(int j=1; j<size-i; j++)
         // We are checking each element with next
-            if(tab[j] > tab[j+1])
+            if(tab[j - 1] > tab[j])
             // and if they are in wrong order then we're swapping them
-                swap(&tab[j], &tab[j+1]);
+                swap(&tab[j - 1], &tab[j]);
 }
 
 void show(int el)
