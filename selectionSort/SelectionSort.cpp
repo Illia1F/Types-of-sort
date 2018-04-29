@@ -12,14 +12,13 @@ void swap(int* a, int* b)
 // The function implements selection sort
 void selectionSort(int* tab, int n)
 {
-    int k;
-    for(int i=0; i<n-1; i++){
-            k = i;
+    for(int i=0; i<n; i++){
+        int k = i;
         // Find the minimum element in subarray
-        for(int j=i; j<n; j++)
+        for(int j=i+1; j<n; j++)
             if(tab[i] > tab[j])
                 k = j;
-        // Swapping the minimum with the first element in array
+        // Swapping
         swap(tab[i], tab[k]);
     }
 }
