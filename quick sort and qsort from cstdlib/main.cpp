@@ -23,7 +23,7 @@ int main()
     // create the table 2 for sort function QSORT
     vector<int> c{v};
 
-    // the time we is gonna calculate with with the help of <chrono> library
+    // the time we are gonna calculate with the help of <chrono> library
     auto begin = std::chrono::steady_clock::now();
     // launch the Quick sort function
     quickSort(v.data(), v.size());
