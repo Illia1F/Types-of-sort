@@ -28,7 +28,7 @@ int main()
     // launch the Quick sort function
     quickSort(v.data(), v.size());
     auto end = std::chrono::steady_clock::now();
-    // calculate the working time the function
+    // calculate the working time of function
     auto elapsed_ms = std::chrono::duration_cast<std::chrono::milliseconds>(end - begin);
 
     std::cout << "The time of quick sort function: " << elapsed_ms.count() << " ms\n";
