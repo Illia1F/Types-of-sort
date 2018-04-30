@@ -1,7 +1,7 @@
-#include <iostream>
-#include <cstdlib>
+#include <iostream> // coutt
+#include <cstdlib> // qsort
 #include <vector>
-#include <chrono>
+#include <chrono> // time
 using namespace std;
 
 // the function implements quick sort
