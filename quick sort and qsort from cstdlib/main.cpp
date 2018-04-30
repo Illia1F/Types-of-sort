@@ -34,7 +34,7 @@ int main()
     std::cout << "The time of quick sort function: " << elapsed_ms.count() << " ms\n";
 
 
-    // and we do the same with the "qsort" function
+    // we do the same with the "qsort" function
     begin = std::chrono::steady_clock::now();
     // launch the function
     qsort(c.data(), SIZE, sizeof(int), [](const void* a, const void* b){ return *(int*)a - *(int*)b; });
