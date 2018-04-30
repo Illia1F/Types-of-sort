@@ -4,7 +4,7 @@
 #include <chrono>
 using namespace std;
 
-// function implements quick sort
+// the function implements quick sort
 template<class T>
 void quickSort(T*, const int);
 // the help function for quick sort
