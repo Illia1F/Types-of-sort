@@ -1,4 +1,4 @@
-#include <iostream> // coutt
+#include <iostream> // cout
 #include <cstdlib> // qsort
 #include <vector>
 #include <chrono> // time
